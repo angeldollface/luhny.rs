@@ -1,0 +1,15 @@
+[package]
+name = "luhny"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+authors = ["Angel Dollface"]
+description= "My Rustacean implementation of the Luhn algorithm for IMEI numbers."
+homepage = "https://github.com/angeldollface/luhny-rs"
+repository = "https://github.com/angeldollface/luhny-rs"
+documentation = "https://github.com/angeldollface/luhny-rs"
+readme = "README.markdown"
+categories = ["imei", "luhn"]
+exclude = [
+  "/.github"
+]
