@@ -1,6 +1,6 @@
 # LUHNY.RS :iphone: :lock: :crab:
 
-![GitHub CI](https://github.com/angeldollface/luhny-rs/actions/workflows/rust.yml/badge.svg)
+![GitHub CI](https://github.com/angeldollface/luhny.rs/actions/workflows/rust.yml/badge.svg)
 
 ***My Rustacean implementation of the Luhn algorithm for IMEI numbers. :iphone: :lock: :crab:***
 
