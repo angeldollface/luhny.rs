@@ -28,7 +28,7 @@ luhny = { git = "https://github.com/angeldollface/luhny.rs", version = "1.0.0" }
 
 ## USAGE :hammer:
 
-For usage instuctions on ***Luhny.rs***'s functions, please check out [`src/lib.rs`](src/lib.rs).
+For usage instructions on ***Luhny.rs***'s functions, please check out [`src/lib.rs`](src/lib.rs).
 
 ## CODE SAMPLE :test_tube:
 
