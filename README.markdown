@@ -6,7 +6,13 @@
 
 ## ABOUT :books:
 
-This is my Rustacean implementation of a package I wrote in [ECMA Script](https://github.com/angeldollface/luhny) a couple of weeks ago. These packages all do one thing: They provide functions for you to check whether the IMEI number of your smartphone is valid or not. The algorithm used here is the "Luhn" algorithm. Enjoy. :heart:
+This is my Rustacean implementation of a package I wrote in ECMA Script a couple of weeks ago. (Link in the section below.) Both these packages do one thing: They provide functions for you to check whether the IMEI number of your smartphone is valid or not. The algorithm used here is the "Luhn" algorithm. Other implementations and web apps showcasing my implementations can be found in the section below. Enjoy. :heart:
+
+## LINKS :earth_americas:
+
+- Library implementation in ECMA Script: [VIEW](https://github.com/angeldollface/luhny)
+- Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/ceramic)
+- Web app implementation in Yew.rs: [VIEW](https://github.com/angeldollface/ceramic.rs)
 
 ## DISCLAIMER :warning:
 
