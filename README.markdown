@@ -48,13 +48,6 @@ fn main() {
 }
 ```
 
-## LINKS :heart_on_fire:
-
-There are other implementations of my algorithm in other languages:
-
-- ECMA Script: [VIEW](https://github.com/angeldollface/luhny)
-- A small web app showcasing the algorithm: [VIEW](https://github.com/angeldollface/ceramic)
-
 ## CHANGELOG :black_nib:
 
 ### Version 1.0.0
