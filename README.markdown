@@ -30,6 +30,24 @@ luhny = { git = "https://github.com/angeldollface/luhny.rs", version = "1.0.0" }
 
 For usage instuctions on ***Luhny.rs***'s functions, please check out [`src/lib.rs`](src/lib.rs).
 
+## CODE SAMPLE :test_tube:
+
+Be sure to follow the installation instructions before using this package.
+Code sample:
+
+```Rust
+// main.rs
+use luhny::*;
+
+fn main() {
+  // A fake valid IMEI number.
+  let test_IMEI: String = String::from("353879234252633");
+
+  // Should output 'true'!
+  println!("{:?}", validate_IMEI(&test_IMEI));
+}
+```
+
 ## LINKS :heart_on_fire:
 
 There are other implementations of my algorithm in other languages:
