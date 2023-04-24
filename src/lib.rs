@@ -3,6 +3,10 @@ LUHNY.RS by Alexander Abraham a.k.a. "Angel Dollface".
 Licensed under the MIT license.
 */
 
+pub fn cli() -> () {
+   // Implement CLI.
+}
+
 // Gets the index of an item in a vector 
 // with items of type "String".
 pub fn get_index(subject: &Vec<String>, element: &String) -> usize {
