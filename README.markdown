@@ -36,11 +36,13 @@ Make sure you have [Rust](https://rust-lang.org) and [Git](https://git-scm.org) 
 cargo install --git https://github.com/angeldollface/luhny.rs
 ```
 
+This command will put the `luhny` executable on your path and install everything properly.
+
 ## USAGE :hammer:
 
 ### API
 
-For usage instructions on ***Luhny.rs***'s functions, please check out [`src/lib.rs`](src/lib.rs).
+For usage instructions on ***Luhny.rs***'s functions, please check out [`src/modules/luhny.rs`](src/modules/luhny.rs).
 Be sure to follow the installation instructions before using this package.
 Code sample:
 
@@ -59,7 +61,7 @@ fn main() {
 
 ### COMMAND LINE
 
-once you have the `luhny` executable on your path, you can run the following commands:
+Once you have the `luhny` executable on your path, you can run the following commands:
 
 - Get version info:
 
@@ -77,7 +79,7 @@ luhny -h
 luhny --help
 ```
 
-- Test the validity of an IMNEI number:
+- Test the validity of an IMEI number:
 
 ```bash
 luhny -i 353879234252633
