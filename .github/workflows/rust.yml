@@ -20,9 +20,9 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: run
-          args: -i 353879234252633
+          args: -- -i 353879234252633
       - name: "Run a validation. (long version)"
         uses: actions-rs/cargo@v1
         with:
           command: run
-          args: --inn 353879234252633
+          args: -- --inn 353879234252633
