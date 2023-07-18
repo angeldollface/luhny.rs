@@ -8,11 +8,6 @@ Licensed under the MIT license.
 /// crate.
 use coutils::is_int;
 
-/// Imports the "get_index"
-/// method from the "coutils"
-/// crate.
-use coutils::get_index;
-
 /// Imports the "parse_int"
 /// method from the "coutils"
 /// crate.

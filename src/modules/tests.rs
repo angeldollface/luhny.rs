@@ -32,7 +32,7 @@ pub fn test_is_number_sequence() -> () {
 
 /// Tests the "validate_IMEI" method.
 #[test]
-pub fn test_validate_IMEI() -> () {
+pub fn test_validate_imei() -> () {
     let real_imei: String = String::from("353879234252633");
     let fake_imei: String = String::from("353879234252634");
     assert_eq!(
