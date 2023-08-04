@@ -7,9 +7,9 @@ Licensed under the MIT license.
 /// building CLIs.
 use cliply::App;
 
-/// Importing the "validate_IMEI"
+/// Importing the "validate_imei"
 /// method from "./luhny.rs".
-use super::luhny::validate_IMEI;
+use super::luhny::validate_imei;
 
 /// Importing the "is_number_sequence"
 /// method from "./luhny.rs".
@@ -39,7 +39,7 @@ pub fn cli() -> () {
         match number {
             Ok(num) => {
                 if is_number_sequence(&num){
-                    if validate_IMEI(&num) {
+                    if validate_imei(&num) {
                         println!("The IMEI number \"{}\" is valid.", &num);
                     }
                     else {

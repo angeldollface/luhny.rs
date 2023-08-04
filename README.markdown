@@ -1,67 +1,46 @@
-# LUHNY.RS :iphone: :lock: :crab:
+# LUHNY.RS
 
 ![GitHub CI](https://github.com/angeldollface/luhny.rs/actions/workflows/rust.yml/badge.svg)
 
-***My Rustacean implementation of the Luhn algorithm for IMEI numbers. :iphone: :lock: :crab:***
+***My Rustacean implementation of the Luhn algorithm for IMEI numbers.***
 
-## ABOUT :books:
+## ABOUT
 
-This is my Rustacean implementation of a package I wrote in ECMA Script a couple of weeks ago. (Link in the section below.) Both these packages do one thing: They provide functions for you to check whether the IMEI number of your smartphone is valid or not. The algorithm used here is the "Luhn" algorithm. Other implementations and web apps showcasing my implementations can be found in the section below. Enjoy. :heart:
+This is my Rustacean implementation of a package I wrote in ECMA Script a couple of months ago. (Link in the section below.) Both these packages do one thing: They provide functions for you to check whether the IMEI number of your smartphone is valid or not. The algorithm used here is the "Luhn" algorithm. Other implementations and web apps showcasing my implementations can be found in the section below. Enjoy.
 
-## LINKS :earth_americas:
+## LINKS
 
 - Library implementation in ECMA Script: [VIEW](https://github.com/angeldollface/luhny)
 - Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/ceramic)
 - Web app implementation in Yew.rs: [VIEW](https://github.com/angeldollface/ceramic.rs)
 
-## DISCLAIMER :warning:
-
-Currently, the only type of IMEI number supported are those with a length of 15 digits.
-
-## INSTALLATION :inbox_tray:
+## INSTALLATION
 
 ### IN A RUST PROJECT
 
 To use ***Luhny.rs*** in your Rust project, add this line to your project's dependencies in the project's `Cargo.toml`:
 
 ```TOML
-luhny = { git = "https://github.com/angeldollface/luhny.rs", version = "1.0.0" }
+luhny = "0.1.0"
 ```
 
 ### AS A COMMAND LINE TOOL
 
-Make sure you have [Rust](https://rust-lang.org) and [Git](https://git-scm.org) installed and run the following command from a terminal:
+Make sure you have [Rust](https://rust-lang.org) and [Git](https://git-scm.org) installed to run the following command from a terminal session:
 
 ```bash
-cargo install --git https://github.com/angeldollface/luhny.rs
+cargo install luhny
 ```
 
 This command will put the `luhny` executable on your path and install everything properly.
 
-## USAGE :hammer:
+## USAGE
 
 ### API
 
-For usage instructions on ***Luhny.rs***'s functions, please check out [`src/modules/luhny.rs`](src/modules/luhny.rs).
-Be sure to follow the installation instructions before using this package.
-Code sample:
-
-```Rust
-// main.rs
-use luhny::*;
-
-fn main() {
-  // A fake valid IMEI number.
-  let test_IMEI: String = String::from("353879234252633");
-
-  // Should pass!
-  assert_eq!(validate_IMEI(&test_IMEI), true);
-}
-```
+To understand how to use *Luhny.rs* in your project, please refer to the project's [documentation](https://docs.rs/luhny/0.1.0).
 
 ### COMMAND LINE
-
-Once you have the `luhny` executable on your path, you can run the following commands:
 
 - Get version info:
 
@@ -69,6 +48,8 @@ Once you have the `luhny` executable on your path, you can run the following com
 luhny -v
 # OR
 luhny --version
+# OR
+luhny version
 ```
 
 - Get helpful info:
@@ -77,6 +58,8 @@ luhny --version
 luhny -h
 # OR
 luhny --help
+# OR
+luhny help
 ```
 
 - Test the validity of an IMEI number:
@@ -85,24 +68,18 @@ luhny --help
 luhny -i 353879234252633
 # OR
 luhny --inn 353879234252633
+# OR
+luhny inn 353879234252633
 ```
 
-## CHANGELOG :black_nib:
+## CHANGELOG
 
-### Version 1.0.0
+### Version 0.1.0
 
 - Initial release.
 - Upload to GitHub.
 
-### Version 1.1.0
+## NOTE
 
-- Added a CLI.
-- Modularized everything.
-- Removed some functions.
-- Added unit tests.
-- Added the `coutils` and `cleasy` crates.
-
-## NOTE :scroll:
-
-- *Luhny :iphone: :lock: :crab:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
+- *Luhny.rs* by Alexander Abraham a.k.a. *"Angel Dollface"*
 - Licensed under the MIT license.

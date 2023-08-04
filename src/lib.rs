@@ -5,17 +5,12 @@ Licensed under the MIT license.
 
 /// Declaring the "modules"
 /// directory as a module itself.
-mod modules;
+pub mod modules;
 
-/// Declaring and exporting
+/// Declaring and re-exporting
 /// the "cli" module.
 pub use modules::cli::*;
 
-/// Declaring and exporting
-/// the "tests" module.
-#[cfg(test)]
-pub use modules::tests::*;
-
-/// Declaring and exporting
+/// Declaring and re-exporting
 /// the "luhny" module.
 pub use modules::luhny::*;

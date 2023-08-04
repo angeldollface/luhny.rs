@@ -71,9 +71,9 @@ pub fn get_important_numbers(imei: &String) -> Vec<usize> {
     return result;
 }
 
-// Gets all the numbers that remain.
-// Removes the check digit because this is not allowed when
-// adding all the remaining numbers together.
+/// Gets all the numbers that remain.
+/// Removes the check digit because this is not allowed when
+/// adding all the remaining numbers together.
 pub fn get_trash_numbers(imei: &String) -> Vec<usize> {
     let mut result: Vec<usize> = Vec::new();
     let char_list: Vec<String> = clean_split(imei, &String::from(""));
@@ -110,8 +110,9 @@ pub fn add_trash_numbers(imei: &String) -> usize{
     return result;
 }
 
-/// Because this is neccessary and we can't play fast and loose with types
-/// we need to convert between the arrays' types. 
+/// Because this is neccessary and we can't play fast and loose with types,
+/// we need to convert between the arrays' types. For this reason, we do an array
+/// type conversion.
 pub fn convert_number_array_to_string_array(arr: &Vec<usize>) -> Vec<String> {
     let mut result: Vec<String> = Vec::new();
     for item in arr {
@@ -139,8 +140,8 @@ pub fn add_important_double_digits(imei: &String) -> usize {
 /// Gets the check digit of your IMEI, adds the "important" and the
 /// "other" numbers together, subtracts the "mod 10" from 10 of that sum, makes
 /// a type conversion, compares the check digit and the calculated check digit,
-/// and returns true or false depending on whether they are equal or not.
-pub fn validate_IMEI(imei: &String) -> bool {
+/// and returns "true" or "false" depending on whether they are equal or not.
+pub fn validate_imei(imei: &String) -> bool {
     let mut result = false;
     let std_length: usize = 15;
     let imei_chars: Vec<String> = clean_split(&imei, &String::from(""));

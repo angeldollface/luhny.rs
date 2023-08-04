@@ -9,6 +9,7 @@ pub mod cli;
 
 /// Declaring and exporting
 /// the "tests" module.
+#[cfg(test)]
 pub mod tests;
 
 /// Declaring and exporting

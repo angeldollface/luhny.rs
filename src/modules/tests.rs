@@ -3,9 +3,9 @@ LUHNY.RS by Alexander Abraham a.k.a. "Angel Dollface".
 Licensed under the MIT license.
 */
 
-/// Importing the "validate_IMEI"
+/// Importing the "validate_imei"
 /// method from "./luhny.rs".
-use super::luhny::validate_IMEI;
+use super::luhny::validate_imei;
 
 /// Importing the "is_number_sequence"
 /// method from "./luhny.rs".
@@ -36,13 +36,13 @@ pub fn test_validate_imei() -> () {
     let real_imei: String = String::from("353879234252633");
     let fake_imei: String = String::from("353879234252634");
     assert_eq!(
-        validate_IMEI(
+        validate_imei(
             &real_imei
         ), 
         true
     );
     assert_eq!(
-        validate_IMEI(
+        validate_imei(
             &fake_imei
         ), 
         false
