@@ -19,7 +19,7 @@ use super::luhny::is_number_sequence;
 pub fn cli() -> () {
    let mut luhny: App = App::new(
         &"Luhny",
-        &"1.1.0",
+        &"0.2.0",
         &"Angel Dollface"
     );
     luhny.add_arg(
