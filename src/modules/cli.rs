@@ -19,12 +19,12 @@ use super::luhny::is_number_sequence;
 pub fn cli() -> () {
    let mut luhny: App = App::new(
         &"Luhny",
-        &"0.2.0",
+        &"0.3.0",
         &"Angel Dollface"
     );
     luhny.add_arg(
         &"inn", 
-        &" input IMEI number", 
+        &"      input IMEI number", 
         &"true"
     );
 

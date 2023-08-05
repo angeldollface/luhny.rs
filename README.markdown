@@ -21,7 +21,7 @@ This is my Rustacean implementation of a package I wrote in ECMA Script a couple
 To use ***Luhny.rs*** in your Rust project, add this line to your project's dependencies in the project's `Cargo.toml`:
 
 ```TOML
-luhny = "0.2.0"
+luhny = "0.3.0"
 ```
 
 ### AS A COMMAND LINE TOOL
@@ -40,7 +40,7 @@ Alternatively, you can download a compiled binary for 64-bit systems from this r
 
 ### API
 
-To understand how to use *Luhny.rs* in your project, please refer to the project's [documentation](https://docs.rs/luhny/0.2.0).
+To understand how to use *Luhny.rs* in your project, please refer to the project's [documentation](https://docs.rs/luhny/0.3.0).
 
 ### COMMAND LINE
 
@@ -86,6 +86,11 @@ luhny inn 353879234252633
 - Updated documentation.
 - Updated the version of the CLI tool.
 - Automatic generation of binaries for 64-bit desktop platforms.
+
+### Version 0.3.0
+
+- Updated documentation.
+- Updated the help message of the CLI tool.
 
 ## NOTE
 
